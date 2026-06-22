@@ -2,7 +2,7 @@
 
 ## External Cyber Threat Intelligence Risk Assessment
 
-**Analyst:** Neo NL  
+**Analyst:** Neo ML  
 **Role:** Cyber Threat Intelligence Analyst (Portfolio Project)  
 **Assessment Date:** 17 April 2026  
 **Report Type:** External Risk Assessment  
@@ -396,7 +396,7 @@ This project demonstrates:
 
 # Analyst
 
-**Neo NL**
+**Neo ML**
 
 Cyber Threat Intelligence Portfolio
 

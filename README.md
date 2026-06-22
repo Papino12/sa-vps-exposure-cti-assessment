@@ -172,5 +172,250 @@ Potential impact includes:
 
 ## VirusTotal Analysis
 
+0 / 91 Security Vendors Flagged
+
+Assessment:
+
+No malicious reputation was identified during the review period.
+
+Important:
+
+A clean reputation does not mean a system is secure.
+
+Exposure and vulnerability risks still require remediation.
+
+---
+
+# Findings Summary
+
+## Finding 1
+
+### Public RDP Exposure
+
+Risk:
+
+High
+
+Reason:
+
+Internet-facing remote administration services increase attack surface.
+
+Recommendation:
+
+Remove direct public exposure and require secure access methods.
+
+---
+
+## Finding 2
+
+### Remote Access Hardening Issue
+
+Risk:
+
+Medium / High
+
+Potential concerns:
+
+- Weak access controls
+- Default configurations
+- External attack attempts
+
+Recommendation:
+
+Implement:
+
+- MFA
+- VPN access
+- Strong authentication controls
+
+---
+
+## Finding 3
+
+### Vulnerability Management Gap
+
+Risk:
+
+High
+
+Issue:
+
+Legacy vulnerabilities can remain exploitable if systems are not patched.
+
+Recommendation:
+
+Maintain:
+
+- Patch management
+- Continuous monitoring
+- External exposure reviews
+
+---
+
+# Evidence
+
+Screenshots included in this repository are:
+
+- Redacted
+- Privacy protected
+- Prepared for public release
+
+Sensitive information removed:
+
+- IP addresses
+- Hostnames
+- Organisation names
+- Identifying details
+
+Evidence sources:
+
+- Shodan
+- IPinfo
+- VirusTotal
+- abuse.ch
+
+---
+
+# Risk Assessment
+
+## Overall Risk Level
+
+# HIGH
+
+Reasons:
+
+- Internet exposure
+- Remote access service visibility
+- Vulnerability history
+- Increased attack surface
+
+---
+
+# Recommendations
+
+## Immediate Actions
+
+1. Remove RDP exposure from the public internet
+
+2. Restrict remote access through:
+
+- VPN
+- Jump host
+- Secure gateway
+
+3. Apply security updates
+
+---
+
+## Short-Term Improvements
+
+Implement:
+
+- Multi-factor authentication
+- Strong password policies
+- Account monitoring
+- Security logging
+
+---
+
+## Long-Term Improvements
+
+Establish:
+
+- Continuous vulnerability management
+- External attack surface monitoring
+- Threat intelligence monitoring
+- Security review processes
+
+---
+
+# Responsible Disclosure Statement
+
+This project follows responsible cybersecurity research principles.
+
+The assessment was performed using publicly available intelligence only.
+
+No systems were:
+
+- Accessed
+- Exploited
+- Modified
+- Disrupted
+
+Sensitive information was removed before publication.
+
+---
+
+# Repository Contents
+
 Result:
+
+SA-VPS-Exposure-CTI-Assessment
+
+|
+
+|-- README.md
+
+|-- Report
+
+| |-- CTI_Assessment_Report.pdf
+
+|
+
+|-- Evidence
+
+| |-- Shodan_Redacted.png
+
+| |-- IPinfo_Redacted.png
+
+| |-- VirusTotal_Redacted.png
+
+| |-- ThreatFox_Redacted.png
+
+|
+
+|-- Notes
+
+|-- Methodology.md
+
+---
+
+# Skills Demonstrated
+
+This project demonstrates:
+
+- Cyber Threat Intelligence
+- OSINT Investigation
+- Vulnerability Analysis
+- Risk Assessment
+- MITRE ATT&CK Mapping
+- Security Reporting
+- Responsible Disclosure
+
+---
+
+# Analyst
+
+**Neo NL**
+
+Cyber Threat Intelligence Portfolio
+
+Focus Areas:
+
+- Threat Intelligence
+- OSINT
+- Vulnerability Research
+- Security Analysis
+- Risk Reporting
+
+---
+
+# Disclaimer
+
+This repository is for educational and portfolio purposes only.
+
+All technical identifiers have been redacted.
+
+No unauthorised testing was performed.
+
 
